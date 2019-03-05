@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     private Button mSubtracao;
 
     TextView holding;
+    TextView taxing;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
     public void exibirQuantidade() {
         Aeronave q = new Aeronave();
         q.getQuantidade();
-        TextView holding = findViewById(R.id.dado_holding);
+        holding = findViewById(R.id.dado_holding);
         holding.setText(String.valueOf(q));
 
     }
