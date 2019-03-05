@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ControleSO</string>
+    <string name="botao_soma">Adicionar Aeronave</string>
+    <string name="botao_subtracao">Tirar Aeronave</string>
+
+    <string name="aeronave_holding">Em Holding: </string>
+    <string name="aeronave_taxi">Em Taxiamento: </string>
+</resources>
