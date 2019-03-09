@@ -4,5 +4,6 @@
     <string name="botao_subtracao">Tirar Aeronave</string>
 
     <string name="aeronave_holding">Em Holding: </string>
-    <string name="aeronave_taxi">Em Taxiamento: </string>
+    <string name="aeronave_taxi">Em Taxi: </string>
+    <string name="aeronave_pista">Na Pista: </string>
 </resources>

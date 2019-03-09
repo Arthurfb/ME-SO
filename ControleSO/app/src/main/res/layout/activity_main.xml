@@ -47,6 +47,10 @@
                 style="@style/texto"
                 android:text="@string/aeronave_taxi" />
 
+            <TextView
+                style="@style/texto"
+                android:text="@string/aeronave_pista" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -66,8 +70,20 @@
                 style="@style/texto"
                 android:text="0" />
 
+            <TextView
+                android:id="@+id/dado_pista"
+                style="@style/texto"
+                android:text="0" />
+
         </LinearLayout>
 
     </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:onClick="encerrarAplicacao"
+        android:text="Sair" />
 
 </LinearLayout>

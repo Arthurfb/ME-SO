@@ -13,7 +13,10 @@ public class MainActivity extends AppCompatActivity {
     private Button mSubtracao;
 
     TextView holding;
+    TextView pista;
     TextView taxing;
+
+    Aeronave a = new Aeronave();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,10 +44,16 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void exibirQuantidade() {
-        Aeronave q = new Aeronave();
-        q.getQuantidade();
         holding = findViewById(R.id.dado_holding);
-        holding.setText(String.valueOf(q));
+        pista = findViewById(R.id.dado_pista);
+        taxing = findViewById(R.id.dado_taxi);
 
+        holding.setText(String.valueOf(a.getQuantidade()));
+        pista.setText(String.valueOf(a.getNaPista()));
+        taxing.setText(String.valueOf(a.getNoTaxi()));
+    }
+
+    public void encerrarAplicacao(View view) {
+        finish();
     }
 }
